@@ -1,4 +1,4 @@
-import '../styles/HeaderMenu.css'
+import './HeaderMenu.css'
 
 function HeaderMenu(){
     return(

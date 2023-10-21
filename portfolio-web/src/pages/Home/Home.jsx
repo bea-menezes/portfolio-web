@@ -1,8 +1,8 @@
-import Flor1 from '../assets/img/flor-1.png'
-import Flor2 from '../assets/img/flor-2.png'
-import Bea from '../assets/img/bea.png'
+import Flor1 from '../../assets/img/flor-1.png'
+import Flor2 from '../../assets/img/flor-2.png'
+import Bea from '../../assets/img/bea.png'
 
-import '../styles/Home.css'
+import './Home.css'
 
 function Home() {
     return (
