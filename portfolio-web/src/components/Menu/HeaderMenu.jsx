@@ -7,7 +7,7 @@ function HeaderMenu(){
                 <a id='title-bea' href="#">Bea.</a>
                 <nav className="nav">
                     <ul className="menu">
-                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#">HOME</a></li>
                         <li><a href="#">QUEM SOU</a></li>
                         <li><a href="#">O QUE FAÇO</a></li>
                         <li><a href="#">PROJETOS</a></li>

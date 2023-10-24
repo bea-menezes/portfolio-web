@@ -1,6 +1,7 @@
-import Flor1 from '../../assets/img/flor-1.png'
+// import Flor1 from '../../assets/img/flor-1.png'
+import Flor1 from '../../assets/img/flor-animate-1.svg'
 import Flor2 from '../../assets/img/flor-2.png'
-import Bea from '../../assets/img/bea.png'
+
 
 import './Home.css'
 
@@ -26,7 +27,6 @@ function Home() {
 
                 <div className="container-home-rigth">
                     <div>
-                        <img id='bea' src={Bea} alt="bea" />
                         <img id='flor-direita' src={Flor2} alt="flor" />
                     </div>
                 </div>

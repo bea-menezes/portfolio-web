@@ -1,0 +1,73 @@
+#bea{
+    height: 300px;
+}
+
+#flor{
+    height: 300px;
+}
+
+.container-quem-sou{
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+}
+
+.container-quem-sou-content{
+    width: 70%;
+    padding: 0px 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container-quem-sou-content h2{
+    font-size: 30px;
+    color: #FFC0D7;
+}
+
+.container-quem-sou-content div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.container-quem-sou-content p{
+    margin-bottom: 40px;
+}
+
+
+.container-quem-sou-content button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    padding: 10px 50px;
+    border-radius: 10px;
+
+    background-color: #1E1E1E;
+    color: #FFC0D7;
+}
+
+.container-quem-sou-content button:hover{
+    color: #1E1E1E;
+    background-color: #FFC0D7;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container-quem-sou-imgs{
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

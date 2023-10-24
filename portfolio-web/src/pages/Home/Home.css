@@ -58,16 +58,17 @@
 
 .container-home-rigth {
     width: 30%;
-
+    /* border: 1px solid black; */
 }
 
 .container-home-rigth div {
     display: flex;
     flex-direction: column;
+    padding-top: 200px;
 }
 
-#bea {
+/* #bea {
     padding-top: 20px;
     width: 230px;
     align-self: center;
-}
+} */
