@@ -8,8 +8,7 @@ function HeaderMenu(){
                 <nav className="nav">
                     <ul className="menu">
                         <li><a href="#">HOME</a></li>
-                        <li><a href="#">QUEM SOU</a></li>
-                        <li><a href="#">O QUE FAÇO</a></li>
+                        <li><a href="#">PERFIL</a></li>
                         <li><a href="#">PROJETOS</a></li>
                         <li><a href="#">CONTATO</a></li>
                     </ul>
