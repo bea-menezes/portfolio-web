@@ -1,0 +1,104 @@
+
+.icons img{
+    height: 40px;
+    background-color: #D478CB;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.container-contato{
+    margin: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+
+    /* border: 1px solid black; */
+}
+
+
+.container-contato button img{
+    height: 15px;
+    margin-left: 10px;
+}
+
+.contato-left{
+    /* border: 1px solid black; */
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 2px solid #581B50;
+}
+
+.contato-left h2{
+    font-size: 30px;
+    color: #581B50;
+}
+
+
+.text-telefone h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.text-email h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Lado direito */
+
+.contato-right{
+    /* border: 1px solid black; */
+    width: 100%;
+    position: relative;
+}
+
+.contato-right h2{
+    font-size: 30px;
+    color: #581B50;
+}
+
+.contato-right p{
+    font-size: 15px;
+    margin: 5px 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.textfield-form{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.textfield-form label{
+    font-size: 16px;
+}
+
+.textfield-form input{
+    box-shadow: 0px 0px 1px black;
+    width: 50%;
+    height: 25px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.textfield-form textarea{
+    box-shadow: 0px 0px 1px black;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.container-contato button{
+    padding: 5px 40px;
+    background-color: #D478CB;
+    color: white;
+    border-radius: 15px;
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+}

@@ -1,0 +1,15 @@
+
+.Container-rodape{
+    width: 100%;
+    background: linear-gradient(to right, #FFC0D7, #B423FF, #BB91DC, #FFC0D7);
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+}
+
+.Container-rodape h2{
+    font-size: 16px;
+    margin: 20px;
+    color: aliceblue;
+}

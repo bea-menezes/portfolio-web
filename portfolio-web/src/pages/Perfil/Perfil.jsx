@@ -23,6 +23,8 @@ function Perfil() {
                         <div className='container-perfil-content'>
                             <h2 className='titulos'>Olá,</h2>
                             <p className='paragrafos'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis unde pariatur dolorum laboriosam aliquam tenetur minima vel odit delectus fugiat! Excepturi labore cupiditate ad, numquam accusamus dignissimos perspiciatis assumenda consequuntur?</p>
+
+                            <button className='btn-curriculo'>Download Currículo</button>
                         </div>
                         <img id='bea-img' src={Bea} alt="Bea" />
                     </div>
