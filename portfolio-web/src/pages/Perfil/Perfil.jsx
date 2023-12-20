@@ -17,7 +17,7 @@ import C from '../../assets/icon/c.png'
 function Perfil() {
     return (
         <>
-            <section id="Perfil">
+            <section id="perfil">
                 <div className="container-perfil">
                     <div className='container-perfil-itens'>
                         <div className='container-perfil-content'>

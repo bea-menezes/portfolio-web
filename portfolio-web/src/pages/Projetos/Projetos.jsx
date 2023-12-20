@@ -15,7 +15,7 @@ import slide_image_3 from '../../assets/slide/flor3.jpg'
 function Projetos() {
     return (
         <>
-            <section className='container-projetos'>
+            <section id='projetos' className='container-projetos'>
                 <h2 className='titulos'>Projetos</h2>
 
                 <Swiper

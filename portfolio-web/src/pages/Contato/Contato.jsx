@@ -7,7 +7,7 @@ import './Contato.css'
 function Contato() {
     return (
         <>
-            <section className='container-contato'>
+            <section id='contato' className='container-contato'>
                 <div className='contato-left'>
                     <h2>Contato</h2>
                     <div className='icons'>
