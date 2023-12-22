@@ -1,72 +1,65 @@
 #flor-1 {
-    padding-top: 60px;
-    width: 90%;
+    width: 100%;
 }
 
 #home {
     width: 100%;
-    height: 590px;
+    height: 600px;
     display: flex;
+    align-items: center;
+    padding-top: 100px;
 
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.294);
+    /* border: 1px solid rgb(39, 21, 153); */
 }
 
-.container-home-left {
+.container-home-img{
+    /* border: 1px solid black; */
     width: 40%;
 }
 
-.container-home-mid {
-    width: 30%;
+.container-home-content{
+    /* border: 1px solid brown; */
+    width: 60%;
+    height: 70%;
+
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
     flex-direction: column;
 
+    position: relative;
 }
 
-.container-home-mid-title h1 {
-    font-family: 'Lilita One', sans-serif;
-    font-size: 30px;
+#flor-2{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    height: 80%;
+}
+
+.container-home-content h1{
+    /* border: 1px solid black; */
+    width: 500px;
+    font-size: 35px;
     color: #BB91DC;
+    font-family: 'Lilita One', sans-serif;
 }
 
-.container-home-mid-title h2 {
-    margin-top: 20px;
-    font-size: 20px;
-    padding-bottom: 50px;
+.container-home-content h2{
+    margin-bottom: 30px;
 }
 
-.barrinha-colorida {
-    width: 100%;
+.barrinha-colorida{
+    width: 50%;
     height: 8px;
     background: linear-gradient(to left, rgba(255, 192, 215, 1), rgba(180, 35, 255, 1),
             rgba(187, 145, 220, 1), rgba(255, 192, 215, 1))
 }
 
-.container-home-mid-a {
-    padding-top: 30px;
+.container-home-links{
+    margin-top: 30px;
 }
 
-.container-home-mid-a a {
+.container-home-links a{
     font-size: 20px;
     padding: 5px 0;
     margin-right: 50px;
 }
-
-.container-home-mid-a a:hover {
-    color: #DD77D3;
-    font-weight: 800;
-    transition: 0.1s;
-    border-bottom: 3px solid #DD77D3;
-}
-
-.container-home-rigth {
-    width: 30%;
-}
-
-.container-home-rigth div {
-    display: flex;
-    flex-direction: column;
-    padding-top: 200px;
-}
-

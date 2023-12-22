@@ -1,5 +1,7 @@
 // import { useState } from 'react'
 
+import ImgDetails from './assets/img/imgDetails.png'
+
 import './App.css'
 import HeaderMenu from './components/Menu/HeaderMenu'
 import Rodape from './components/Rodape/Rodape'
@@ -15,6 +17,7 @@ function App() {
     <>
       <HeaderMenu/>
       <Home/>
+      {/* <div className='img-details'><img src={ImgDetails} alt="img" /></div> */}
       <Perfil/>
       <Projetos/>
       <Contato/>

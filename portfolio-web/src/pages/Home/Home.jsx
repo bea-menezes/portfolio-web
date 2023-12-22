@@ -8,27 +8,23 @@ import './Home.css'
 function Home() {
     return (
         <>
-            <section id='home'>
-                <div className="container-home-left">
-                    <img id='flor-1' src={Flor1} alt="flor" />
+            <section  id='home'>
+                <div className='container-home-img'>
+                    <img id='flor-1' src={Flor1} alt="Flor svg" />
                 </div>
 
-                <div className="container-home-mid">
-                    <div className='container-home-mid-title'>
-                        <h1>BEM-VINDOS, MEU NOME É BEATRIZ</h1>
-                        <h2>Sou desenvolvedora Front-End </h2>
-                    </div>
+                <div className='container-home-content'>
+                    <h1>BEM-VINDOS, MEU NOME É BEATRIZ</h1>
+                    <h2>Sou desenvolvedora Front-End</h2>
+
                     <span className='barrinha-colorida'></span>
-                    <div className='container-home-mid-a'>
+
+                    <div className='container-home-links'>
                         <a href="#">LinkedIn</a>
                         <a href="#">GitHub</a>
                     </div>
-                </div>
 
-                <div className="container-home-rigth">
-                    <div>
-                        <img id='flor-direita' src={Flor2} alt="flor" />
-                    </div>
+                    <img id='flor-2' src={Flor2} alt="Flor" />
                 </div>
             </section>
         </>

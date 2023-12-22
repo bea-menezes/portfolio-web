@@ -18,9 +18,22 @@
 body {
     width: 100%;
     background-color: white;
-    padding-top: 70px;
+    /* margin-top: 70px; */
     margin: 0 auto;
 }
+
+.img-details{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-details img{
+    height: 50px;
+}
+
+
 
 /* 
 @media screen and (max-width: 768px) {
